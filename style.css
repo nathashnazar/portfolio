@@ -1,0 +1,98 @@
+body{
+    margin: 25px 50px;
+}
+.subBody{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#title{
+    font-size: 30px;
+    position:absolute;
+    left: 10px;
+}
+header {  
+    width: 100%;  
+    position: relative;  
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 20%;  
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    padding:0  50px;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    /* width: 10%; */
+    text-align: center;
+    align-items:center;
+    border-left: 3px solid black;
+}
+#hello{
+    width: 90%;
+    border: 3px solid gray;
+    padding: 50px;
+    margin:30px 20px;
+    text-align: center;
+    color: rgba(175, 175, 175, 0.821);
+}
+.subTitles{
+    font-family: monospace;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    text-decoration: underline ;
+    position: relative;
+    display: inline-block;
+}
+#euro{
+    width: 35%;
+}
+#foot{
+     width: 80%;
+        display: flex;
+        align-items:center ;
+        justify-content: space-evenly;
+        margin: 5px auto;
+}
+.about{
+    display: flex; 
+}
+#aboutsec{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center; */
+}
+#aboutsec #content{
+    width: 70%;
+    float: left;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+}
+hr{
+    border-top: 5px solid rgb(104, 102, 102);
+}
+form{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    background-color: white;
+    color: white;
+    height: 2em;
+}
+footer h3{
+    text-align: center;
+    padding-top: 4px;
+    color: black;
+}
